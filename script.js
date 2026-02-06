@@ -9,7 +9,7 @@ behavior: "smooth"
 document.getElementById("orderForm").addEventListener("submit", function (e) {
 e.preventDefault();
 
-fetch("https://script.google.com/macros/s/AKfycbx4BGaqV2Hzs7gDd47iAVh-YS0ELW_dVRfy1dK_35wkjp9PzZoChwJ50LvtZFOMQXDo2Q/exec", { // <-- KËTU vendos Web App URL nga Apps Script
+fetch("https://script.google.com/macros/s/AKfycbzTwRwA6fAV4RVgqC33rMfeuN7Ms1QM1rcT5m9WElu7QtCfC0N1aN7T7Z64DbTZ3PZAbg/exec", { // <-- KËTU vendos Web App URL nga Apps Script
 method: "POST",
 body: new URLSearchParams(new FormData(this))
 })
@@ -24,3 +24,4 @@ console.error(error);
 });
 
 });
+
